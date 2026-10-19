@@ -8,6 +8,21 @@ var gridSize = 16;
 
 createGrid(gridSize);
 
+newButton.addEventListener('click', ()=> {
+    gridSize = prompt('How wide would you like the new grid to be? (Maximum of 100', 16);
+    //Delete the old grid
+    while(container.firstChild) {
+        container.removeChild(container.lastChild);
+        console.log('removing child');
+    }
+
+    //Create the new grid
+    if (gridSize > 100) {
+        gridSize = 100;
+    }
+    createGrid(gridSize);
+});
+
 
 //Functions--------------------------------------------------------------------------------------------
 
