@@ -1,0 +1,14 @@
+#container {
+    border: 2px solid black;
+    width: 768px;
+    height: 768px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.grid {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
