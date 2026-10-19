@@ -1,4 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    align-items: center;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+button {
+    font-size: 24px;
+}
+
 #container {
+    background-color: white;
     border: 2px solid black;
     width: 768px;
     height: 768px;
@@ -9,6 +26,7 @@
 }
 
 .grid {
+    background-color: white;;
     border: 1px solid black;
     box-sizing: border-box;
 }
